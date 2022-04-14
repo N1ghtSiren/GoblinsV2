@@ -1,0 +1,11 @@
+require (EXTERNAL_PATH .. "core\\events")
+require (EXTERNAL_PATH .. "core\\stats")
+require (EXTERNAL_PATH .. "core\\unitstats")
+require (EXTERNAL_PATH .. "core\\texttags")
+require (EXTERNAL_PATH .. "core\\buffs")
+require (EXTERNAL_PATH .. "core\\shields")
+require (EXTERNAL_PATH .. "core\\projectiles")
+require (EXTERNAL_PATH .. "core\\summons")
+require (EXTERNAL_PATH .. "core\\waves")
+
+_print("core initialized")
