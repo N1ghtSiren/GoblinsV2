@@ -1,0 +1,48 @@
+---
+layers of architecture:
+
+container - something which executes code - app, standalone app, browser, database, file system, etc
+component - bunch of related stuff with nice clean interface and encapsulation
+class
+
+---
+system context - the system + users dependencies
+containers - overall shape of architecture and technology choices
+components - logical components and their interactions within a container
+classes - component or pattern implementation details
+
+mvc - model + view + controller
+
+controller -> model
+model -> view
+view -> user
+user -> controller
+
+classes are not important when developing architecture
+
+model - dynamic data structure
+view - any representation
+
+controller - accesses model or view
+controller also validates any interaction within model
+
+--
+bugs:
+AddItemToStock - added item disappear even if 0 stock was not reached
+
+--
+
+attackpoint = там где вылетает снаряд - до этого момента можно отменять атаку
+cast backswing = после этого момента можно отменить анимацию, ставится после атаки
+
+
+--
+rules:
+
+2 empty string between functions
+
+all used locals defined in 1st line of function
+then goes empty line
+
+1 empty string before return from function
+  exception is tailcall with 1 line
